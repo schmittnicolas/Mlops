@@ -1,7 +1,10 @@
 from huggingface_hub import login
 import torch
+import os
 # Log in with your Hugging Face token
-login(token="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")
+token = os.getenv("TOKEN")
+
+login(token=token)
 
 from transformers import pipeline
 
