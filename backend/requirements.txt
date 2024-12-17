@@ -1,0 +1,9 @@
+huggingface_hub
+torch
+transformers
+sentence-transformers
+Pillow
+numpy
+uvicorn
+fastapi
+python-dotenv
